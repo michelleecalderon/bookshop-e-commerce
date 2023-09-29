@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORSI E FIABE - Online Bookstore</title>
+
+    <!--favicon-->
+    <link rel="icon" sizes="32x32" href="./logos-png/favicon-big.png">
+
+    <!--css-->
+    <link rel="stylesheet" href="./assets/styles.css">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lora:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+
+    <!--preload banner-->
+    <link rel="preload" href="./img/cozy-library.png" as="image">
+
+
+</head>
+
+<body id="top">
+
+    <!--header-->
+
+    <header class="header" data-header>
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="#" class="logo-header">
+            <img src="./logos-png/logo-light.png" width="255" height="auto" alt="logo">
+          </a>
+    
+          <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+          <nav class="navbar" data-navbar>
+    
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+    
+            <a href="#" class="logo">
+              <img src="./logos-png/logo-light.png" width="190" height="auto" alt="logo">
+            </a>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Home</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">About</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Products</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Shop</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Blog</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Contact</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="nav-action-list">
+    
+              <li>
+                <button class="nav-action-btn">
+                  <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Search</span>
+                </button>
+              </li>
+    
+              <li>
+                <a href="#" class="nav-action-btn">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Login / Register</span>
+                </a>
+              </li>
+    
+              <li>
+                <button class="nav-action-btn">
+                  <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="nav-action-text">Wishlist</span>
+    
+                  <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+                </button>
+              </li>
+    
+              <li>
+                <button class="nav-action-btn">
+                  <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+    
+                  <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+    
+                  <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+                </button>
+              </li>
+    
+            </ul>
+    
+          </nav>
+    
+        </div>
+    </header>
+    
+
+    <main>
+      <article>
+
+        <!--banner-->
+
+        <section class="section hero">
+          <div class="container">
+  
+            <h2 class="h1 hero-title">
+              <strong>Welcome to Sorsi e Fiabe</strong>
+            </h2>
+  
+            <p class="hero-text">
+              Step into our cozy virtual bookshop, where shelves are lined 
+              with tales of love and wonder. Whether you're searching for 
+              timeless classics or the latest releases, we're dedicated 
+              to bringing you the most captivating stories...
+            </p>
+  
+            <button class="btn-primary">
+              <span>Shop Now</span>
+  
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+  
+          </div>
+        </section>
+
+
+    <!--colection-->
+
+      <section class="section-collection">
+        <div class="container">
+
+          <ul class="collection-list has-scrollbar">
+
+            <li>
+              <div class="collection-card romance">
+                <h3 class="h4 card-title">ROMANCE</h3>
+                <img src="./img/romance-books.png" alt="romance-books">
+
+                <a href="#" class="btn btn-secondary-romance">
+                  <span>Explore All</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card fantasy">
+                <h3 class="h4 card-title">FANTASY</h3>
+
+                <img src="./img/fantasy-books.png" alt="fantasy-books">
+
+                <a href="#" class="btn btn-secondary-fantasy">
+                  <span>Explore All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card soon">
+                <h3 class="h4 card-title">COMING SOON</h3>
+
+                <img src="./img/coming soon-books.png" alt="coming-soon">
+
+                <a href="#" class="btn btn-secondary-soon">
+                  <span>Explore All</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    
+    <!--product-->
+
+    <section class="section product">
+      <div class="container">
+
+        <h2 class="h2 section-title">Bestsellers</h2>
+
+        <ul class="filter-list">
+
+          <li>
+            <button class="filter-btn active">All</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Romance</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Fantasy</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Thriller & Mistery</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Contemporary</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Young Adult</button>
+          </li>
+
+        </ul>
+
+        <ul class="product-list">
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+              
+              <figure class="card-banner">
+                <img src="./img/book1.jpeg" width="220" height="335" loading="lazy" 
+                alt="book1" class="image-container">
+
+                <div class="card-badge">New</div>
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-1">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                  </li>
+
+                </ul>
+              </figure>
+
+              <div class="card-content">
+
+                <div class="card-cat">
+                  <a href="#" class="card-cat-link">Rebecca Ross</a>
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Divine Rivals</a>
+                </h3>
+
+                <data class="card-price" value="18.70">$18.70</data>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+
+              <figure class="card-banner">
+                <img src="./img/book2.jpeg" width="220" height="335" loading="lazy" 
+                alt="book2" class="image-container">
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </button>
+                  </li>
+                </ul>
+              </figure>
+
+              <div class="card-content">
+                 <div class="card-cat">
+                    <a href="#" class="card-cat-link">Abby Jimenez</a>
+                  </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Yours Truly</a>
+                    </h3>
+
+                    <data class="card-price" value="19.80">$19.80</data>
+              </div>
+            
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+
+              <figure class="card-banner">
+                <img src="./img/book3.jpeg" width="220" height="335" loading="lazy" 
+                alt="book3" class="image-container">
+
+                <div class="card-badge">New</div>
+
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </button>
+                  </li>
+                </ul>
+              </figure>
+
+              <div class="card-content">
+                 <div class="card-cat">
+                    <a href="#" class="card-cat-link">Rebecca Yarros</a>
+                  </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">In The Likely Event</a>
+                    </h3>
+
+                    <data class="card-price" value="17.80">$17.80</data>
+              </div>
+            
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+
+              <figure class="card-banner">
+                <img src="./img/book4.jpeg" width="220" height="335" loading="lazy" 
+                alt="book4" class="image-container">
+
+                <div class="card-badge"> -25%</div>
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </button>
+                  </li>
+                </ul>
+              </figure>
+
+              <div class="card-content">
+                 <div class="card-cat">
+                    <a href="#" class="card-cat-link">Suzanne Collins</a>
+                  </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">The Ballad of Songbirds and Snakes</a>
+                    </h3>
+
+                    <data class="card-price" value="20.30">$20.30</data>
+              </div>
+            
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+
+              <figure class="card-banner">
+                <img src="./img/book5.png" width="220" height="335" loading="lazy" 
+                alt="book5" class="image-container">
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </button>
+                  </li>
+                </ul>
+              </figure>
+
+              <div class="card-content">
+                 <div class="card-cat">
+                    <a href="#" class="card-cat-link">Sarah J. Maas</a>
+                  </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Kingdom of Ash</a>
+                    </h3>
+
+                    <data class="card-price" value="23.00">$23.00</data>
+              </div>
+            
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+
+              <figure class="card-banner">
+                <img src="./img/book6.jpeg" width="220" height="335" loading="lazy" 
+                alt="book6" class="image-container">
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </button>
+                  </li>
+                </ul>
+              </figure>
+
+              <div class="card-content">
+                 <div class="card-cat">
+                    <a href="#" class="card-cat-link">Matt Haig</a>
+                  </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">The Midnight Library</a>
+                    </h3>
+
+                    <data class="card-price" value="17.80">$17.80</data>
+              </div>
+            
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+
+              <figure class="card-banner">
+                <img src="./img/book8.jpeg" width="220" height="335" loading="lazy" 
+                alt="book8" class="image-container">
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                  </li>
+                </ul>
+              </figure>
+
+              <div class="card-content">
+                 <div class="card-cat">
+                    <a href="#" class="card-cat-link">Shari Low</a>
+                  </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">One Moment in Time</a>
+                    </h3>
+
+                    <data class="card-price" value="17.00">$17.00</data>
+              </div>
+            
+            </div>
+          </li>
+
+          <li class="product-item">
+            <div class="product-card" tabindex="0">
+
+              <figure class="card-banner">
+                <img src="./img/book9.png" width="220" height="335" loading="lazy" 
+                alt="book9" class="image-container">
+
+                <div class="card-badge">New</div>
+
+
+                <ul class="card-action-list">
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn">
+                      <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-2">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                  </li>
+
+                  <li class="card-action-item">
+                    <button class="card-action-btn" aria-labelledby="card-label-3">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+
+                    </button>
+                  </li>
+                </ul>
+              </figure>
+
+              <div class="card-content">
+                 <div class="card-cat">
+                    <a href="#" class="card-cat-link">Rebecca Yarros</a>
+                  </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Iron Flame</a>
+                    </h3>
+
+                    <data class="card-price" value="28.00">$28.00</data>
+              </div>
+            
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+
+    <!--product-->
+
+    <section class="section cta"></section>
+      <div class="container">
+
+        <ul class="cta-list">
+          
+          <li>
+            <div class="cta-card-sale" style="background-image: url(./img/summersale-books.png);">
+
+              <h3 class="h2 card-title">The Summer Sale Off 50%</h3>
+
+              <a href="#" class="btn btn-link">
+                <span>Shop Now</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="cta-card-halloween" style="background-image: url(./img/halloween-books.png);">
+              
+              <h3 class="h2 card-title">Best books for fall season</h3>
+
+              <a href="#" class="btn btn-link">
+                <span>Shop Now</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+
+
+
+
+
+      </article>
+    </main>
+
+
+
+
+
+
+
+<!--scripts js-->
+<script src="./assets/script.js"></script>
+
+<!--ion-icons-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
