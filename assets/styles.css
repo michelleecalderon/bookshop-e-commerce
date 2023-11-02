@@ -753,3 +753,53 @@ body {
 
 }
   
+
+
+
+
+
+
+
+/**MEDIA QUERIES**/
+
+@media (min-width: 550px) {
+
+  :root {
+    --fs-1: 42px;
+}
+
+  .product-list {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 5rem 3rem;
+}
+
+
+}
+
+@media (min-width: 768px) {
+
+  :root {
+    --fs-1: 36px;
+}
+
+}
+
+@media (min-width: 992px) {
+
+  .product-list {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 5rem 3rem;
+}
+
+.cta-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    color: var(--beige);
+}
+
+
+}
